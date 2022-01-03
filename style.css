@@ -3,6 +3,7 @@ ol[class] {
   padding: 0;
 }
 
+h1,
 h2 {
   text-align: center;
 }
@@ -28,10 +29,17 @@ body {
   max-width: 100%;
 }
 
+nav {
+  display: block;
+}
+
 .nav-list {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -57,7 +65,27 @@ main {
 
 .footer {
   width: 600px;
+  height: 50px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(170, 157, 157);
+}
 
-  justify-content: space-between;
+a:hover {
+  color: orange;
+  transition: 0.3s;
+}
+
+a img {
+  width: 50px;
+}
+
+a img:hover {
+  width: 55px;
+  transition: 0.3s;
+}
+
+p {
+  text-align: justify;
 }
