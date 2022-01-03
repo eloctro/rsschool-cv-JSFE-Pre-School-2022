@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <meta charset="UTF-8" />
+    <title>Dzmitry Masiuk CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contact Info</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container main-container">
+      <main>
+        <section class="section" id="profile">
+          <img src="assets/img/Photo.jpg" alt="photo" />
+          <h1 class="section-title">Dzmitry Masiuk</h1>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contact Info</h2>
+          <ul>
+            <li>eloctro@tut.by</li>
+            <li>+375 (29) 172-89-07</li>
+          </ul>
+        </section>
+        <section class="section" id="about">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            Electronic engineer. Setting up optoelectronic devices.
+            Determination of malfunctions of electronics. Analysis,
+            systematization of failures in the operation of devices and
+            development of recommendations for their elimination. I never stop
+            in self-development, I study programming. I take on complex tasks,
+            it helps to develop.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <p>Basic knowledge of programming languages:</p>
+          <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre>
+          function isPalindrome(line) {
+            line = String(line);
+            let start = 0;
+            let finish = line.length - 1;
+            while (finish >= start) {
+              if (line[start] !== line[finish]) {
+                return false;
+              };
+              start++;
+              finish--;
+            };
+            return true;
+          };
+        </pre
+          >
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <p>
+            <a href="https://eloctro.github.io/rsschool-cv/"
+              >https://eloctro.github.io/rsschool-cv/</a
+            >
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>
+            Belarusian National Technical University, Faculty of Instrument
+            Engineering, Department “Information-measuring equipment and
+            technologies”, specialty “Technical security”.
+          </p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>English<br /><span>A1</span></li>
+            <li>Polish<br /><span>A1</span></li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <div class="container">
+      <footer class="footer">
+        <p>2021</p>
+        <p>
+          <a href="https://github.com/eloctro"
+            ><img src="assets/img/Github_icon.ico" alt="Github_icon"
+          /></a>
+        </p>
+        <p>
+          <a href="https://rs.school/js/"
+            ><img src="assets/img/rs_school_js.svg" alt="rs_school_svg"
+          /></a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
