@@ -9,3 +9,24 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 5px;
+  line-height: 50px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: orange;
+  transition: 0.3s;
+}
